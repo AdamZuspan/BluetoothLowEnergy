@@ -12,6 +12,7 @@
 		84DA22DE216BB66E00BCBFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA22DC216BB66E00BCBFCA /* Main.storyboard */; };
 		84DA22E0216BB67200BCBFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DA22DF216BB67200BCBFCA /* Assets.xcassets */; };
 		84DA22E3216BB67200BCBFCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA22E1216BB67200BCBFCA /* LaunchScreen.storyboard */; };
+		84DA22EB216BB9C200BCBFCA /* CBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA22EA216BB9C200BCBFCA /* CBService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84DA22DF216BB67200BCBFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DA22E2216BB67200BCBFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84DA22E4216BB67200BCBFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DA22EA216BB9C200BCBFCA /* CBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				84DA22DF216BB67200BCBFCA /* Assets.xcassets */,
 				84DA22E1216BB67200BCBFCA /* LaunchScreen.storyboard */,
 				84DA22E4216BB67200BCBFCA /* Info.plist */,
+				84DA22EA216BB9C200BCBFCA /* CBService.swift */,
 			);
 			path = BLE_Test;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				84DA22DB216BB66E00BCBFCA /* ViewController.swift in Sources */,
 				84DA22D9216BB66E00BCBFCA /* AppDelegate.swift in Sources */,
+				84DA22EB216BB9C200BCBFCA /* CBService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
